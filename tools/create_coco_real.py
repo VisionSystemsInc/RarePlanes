@@ -6,13 +6,13 @@ from solaris.data.coco import geojson2coco
 
 def create_coco_annotations(image_dir, geojson_dir, output_path, category_attribute, preset_categories):
     """ parse the geojson files and create the coco annotations file
-    :arg:
+    Args:
         - image_dir (str): directory containing the tiled images
         - geojson_dir (str): directory containing the geojson files
         - output_path (str): json file containing the coco annotations
         - category_attribute (str):
         - preset_categories (str):
-    :returns
+    Returns
         - annotations (list): list of coco annotations
     """
     _ = geojson2coco(image_dir,

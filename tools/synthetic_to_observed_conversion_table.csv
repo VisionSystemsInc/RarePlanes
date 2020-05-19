@@ -1,0 +1,128 @@
+﻿reverie_make,make,role,role_id,In_Observed,canards,num_engines,propulsion,num_tail_fins,wing_position,wing_type,gt_length,gt_wingspan,faa_wingspan_class
+Bombardier Learjet,Small Civil Transport/Utility,Small Civil Transport/Utility,1,TRUE,no,2,jet,1,mid/low mounted,straight,14.83,12.04,1
+Cessna 170,Small Civil Transport/Utility,Small Civil Transport/Utility,1,TRUE,no,1,propeller,1,high mounted,straight,7.62,11,1
+Cessna 172,Small Civil Transport/Utility,Small Civil Transport/Utility,1,TRUE,no,1,propeller,1,high mounted,straight,8.28,11,1
+Cessna 310,Small Civil Transport/Utility,Small Civil Transport/Utility,1,TRUE,no,2,propeller,1,mid/low mounted,straight,8.23,10.67,1
+Dassault Falcon-100,Small Civil Transport/Utility,Small Civil Transport/Utility,1,TRUE,no,2,jet,1,mid/low mounted,swept back,13.86,13.08,1
+Let L-200Morova,Small Civil Transport/Utility,Small Civil Transport/Utility,1,TRUE,no,2,propeller,2,mid/low mounted,straight,8.61,12.31,1
+PiperAircraft PA-28,Small Civil Transport/Utility,Small Civil Transport/Utility,1,TRUE,no,1,propeller,1,mid/low mounted,straight,7.16,9.2,1
+Airbus A-319,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept back,68.96,35.8,3
+Airbus A320,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept back,37.57,35.8,3
+ATR ATR-72,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,propeller,1,high mounted,straight,27.17,27.05,3
+BAE 146-100,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,4,jet,1,high mounted,swept back,26.19,26.34,3
+BAE 146-300,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,4,jet,1,high mounted,swept back,31,26.34,3
+Boeing 717-200,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept back,37.8,28.4,3
+Boeing 727,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,3,jet,1,mid/low mounted,swept back,40.59,32.92,3
+Boeing 727-100,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,3,jet,1,mid/low mounted,swept back,40.59,32.92,3
+Boeing 737,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept back,29,28,3
+Boeing 737-200,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept back,30.53,28,3
+Boeing 737-300,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept back,33.4,28.88,3
+Boeing BBJ-2,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept back,39.5,35.79,3
+Bombardier BD-700-GlobalExpress,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept back,29.50,28.7,3
+Bombardier Challenger-300,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept back,20.92,19.46,2
+Bombardier Challenger-604,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept back,20.9,19.6,2
+Bombardier CRJ-705,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept back,32.3,23.2,2
+Cessna,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept back,16.9,16.31,2
+Cessna Citation-CJ4,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,straight,16.26,15.49,2
+Dassault Falcon-2000,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,3,jet,1,mid/low mounted,swept back,20.23,19.33,2
+Dassault Falcon-900,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept back,20.21,19.33,2
+DeHavillandCanada DHC-3-Otter,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,1,propeller,1,high mounted,straight,12.80,17.69,2
+Embraer ERJ-135,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept back,26.33,20.04,2
+Embraer Legacy,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept back,19.69,19.25,2
+Fokker 100,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,delta,35.53,28.08,3
+Gulfstream G200,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept back,18.97,17.7,2
+Gulfstream GIII,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept back,25.32,23.72,2
+HBC Hawker-4000,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept back,21.08,18.8,2
+McDonnellDouglas DC-9-30,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept back,36.36,28.44,3
+SudAviation Caravelle,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept back,32.01,34.3,3
+Airbus A-340,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,4,jet,1,mid/low mounted,swept back,59.39,60.3,5
+Airbus A300,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept back,53.61,44.84,4
+Airbus A330-300,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept back,58.82,60.3,5
+Airbus A380,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,4,jet,1,mid/low mounted,swept back,72.72,79.75,6
+Airbus A380-800,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,4,jet,1,mid/low mounted,swept back,72.72,79.75,6
+Boeing 707,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,4,jet,1,mid/low mounted,swept back,44.22,39.88,4
+Boeing 747,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,4,jet,1,mid/low mounted,swept back,56.3,59.6,5
+Boeing 747-200,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,4,jet,1,mid/low mounted,swept back,70.66,59.6,5
+Boeing 747-400,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,4,jet,1,mid/low mounted,swept back,70.66,64.4,5
+Boeing 757-300,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept back,54.4,38,4
+Boeing 767,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept back,54.94,47.57,4
+Boeing 767-200,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept back,48.51,47.57,4
+Boeing 767-400,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept back,54.94,51.92,4
+Boeing 777-300,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept back,73.86,60.93,5
+LockheedCorp L-1011-TriStar,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,3,jet,1,mid/low mounted,swept back,54.17,47.35,4
+McDonnellDouglas MD-11,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,3,jet,1,mid/low mounted,swept back,61.00,51.97,4
+Beechcraft C-12-Huron,Beechcraft C-12-Huron,Military Transport/Utility/AWAC,4,FALSE,no,2,propeller,1,mid/low mounted,straight,13.34,16.61,2
+Boeing AWACs-E3-Sentry,Boeing AWACs-E3-Sentry,Military Transport/Utility/AWAC,4,FALSE,no,4,jet,1,mid/low mounted,swept back,46.61,44.42,4
+LockheedCorporation C-5,LockheedCorporation C-5,Military Transport/Utility/AWAC,4,FALSE,no,4,jet,1,high mounted,swept back,75.31,67.89,6
+LockheedCorporation CP-140,LockheedCorporation CP-140,Military Transport/Utility/AWAC,4,FALSE,no,4,propeller,1,mid/low mounted,straight,35.61,30.38,3
+Antonov AN-12,Antonov An-12,Military Transport/Utility/AWAC,4,TRUE,no,4,propeller,1,high mounted,straight,33.1,38,4
+Antonov AN-124,Antonov An-124 Ruslan,Military Transport/Utility/AWAC,4,TRUE,no,4,jet,1,high mounted,swept back,69.1,73.3,6
+Antonov AN-225,Antonov An-124 Ruslan,Military Transport/Utility/AWAC,4,TRUE,no,4,jet,1,high mounted,swept back,69.1,73.3,6
+Antonov An-2,Antonov An-2,Military Transport/Utility/AWAC,4,TRUE,no,1,propeller,1,high mounted,straight,12.4,18.2,2
+Antonov AN-24,Antonov An-24,Military Transport/Utility/AWAC,4,TRUE,no,2,propeller,1,high mounted,straight,23.53,29.2,3
+Antonov An26,Antonov An-26,Military Transport/Utility/AWAC,4,TRUE,no,2,propeller,1,high mounted,straight,23.8,29.3,3
+Antonov AN-74,Antonov An-72,Military Transport/Utility/AWAC,4,TRUE,no,2,jet,1,high mounted,straight,28.07,31.89,3
+Boeing KC-135-Stratotanker,Boeing KC-135 Stratotanker,Military Transport/Utility/AWAC,4,TRUE,no,4,jet,1,mid/low mounted,swept back,41.53,39.88,4
+Boeing KC135,Boeing KC-135 Stratotanker,Military Transport/Utility/AWAC,4,TRUE,no,4,jet,1,mid/low mounted,swept back,41.53,39.88,4
+Dornier Do-228,Dornier Do 228,Military Transport/Utility/AWAC,4,TRUE,no,2,propeller,1,high mounted,straight,16.56,16.97,2
+Douglas DC-3,Douglas C-47 Skytrain,Military Transport/Utility/AWAC,4,TRUE,no,2,propeller,1,mid/low mounted,straight,19.43,29.11,3
+HawkerSiddely Hunter,Hawker Hunter,Military Transport/Utility/AWAC,4,TRUE,no,1,jet,1,mid/low mounted,swept back,13.983,10.26,1
+Ilyushin IL-76-MD90,Ilyushin Il-76,Military Transport/Utility/AWAC,4,TRUE,no,4,jet,1,high mounted,swept back,46.59,50.5,4
+Ilyushin IL-96-300,Ilyushin Il-96,Military Transport/Utility/AWAC,4,TRUE,no,4,jet,1,mid/low mounted,swept back,64.7,60.11,5
+Lockheed C130Hercules,Lockheed C-130 Hercules,Military Transport/Utility/AWAC,4,TRUE,no,4,propeller,1,high mounted,straight,29.79,40.41,4
+LockheedMartin AC-130U,Lockheed C-130 Hercules,Military Transport/Utility/AWAC,4,TRUE,no,4,propeller,1,high mounted,straight,29.79,40.41,4
+Tupolev Tu-134,Tupolev Tu-134,Military Transport/Utility/AWAC,4,TRUE,no,2,jet,1,mid/low mounted,swept back,37.1,29.01,3
+Tupolev Tu-204,Tupolev Tu-204,Military Transport/Utility/AWAC,4,TRUE,no,2,jet,1,mid/low mounted,swept back,46.14,41.8,4
+Boeing B-52-Stratofortress,Boeing B-52-Stratofortress,Military Bomber,5,FALSE,no,4,jet,1,high mounted,swept back,48.5,56.4,5
+NorthropGrumman B2-Spirit,NorthropGrumman B2-Spirit,Military Bomber,5,FALSE,no,2,jet,0,mid/low mounted,swept back,21.00,52.4,5
+Rockwell B-1B,Rockwell B-1B,Military Bomber,5,FALSE,no,4,jet,1,mid/low mounted,variable swept,44.50,24,3
+Canberra B2,English Electric Canberra,Military Bomber,5,TRUE,no,2,jet,1,mid/low mounted,straight,19.96,19.51,2
+Tupolev Tu-160,Tupolev Tu-160,Military Bomber,5,TRUE,no,4,jet,1,mid/low mounted,variable swept,54.1,55.7,5
+Tupolev Tu-22M3,Tupolev Tu-22M,Military Bomber,5,TRUE,no,2,jet,1,mid/low mounted,variable swept,42.4,34.28,3
+Xian H-6,Xian H-6,Military Bomber,5,TRUE,no,2,jet,1,mid/low mounted,swept back,34.8,33,3
+BAE Harrier-GRMK7,BAE Harrier-GRMK7,Military Fighter/Interceptor/Attack,6,FALSE,no,1,jet,1,high mounted,swept back,14.12,9.25,1
+Dassault Rafale-B,Dassault Rafale-B,Military Fighter/Interceptor/Attack,6,FALSE,no,2,jet,1,mid/low mounted,delta,15.27,10.8,1
+Dassault SuperEtendard,Dassault SuperEtendard,Military Fighter/Interceptor/Attack,6,FALSE,no,1,jet,1,mid/low mounted,swept back,14.31,9.6,1
+Eurofighter Typhoon-EF-2000,Eurofighter Typhoon-EF-2000,Military Fighter/Interceptor/Attack,6,FALSE,yes,2,jet,1,mid/low mounted,delta,15.96,10.95,1
+Grumman EA-6B,Grumman EA-6B,Military Fighter/Interceptor/Attack,6,FALSE,no,2,jet,1,mid/low mounted,swept back,17.7,16,2
+LockheedMartin F-22-Raptor,LockheedMartin F-22-Raptor,Military Fighter/Interceptor/Attack,6,FALSE,no,2,jet,2,mid/low mounted,delta,18.92,13.56,1
+LockheedMartin F-35A,LockheedMartin F-35A,Military Fighter/Interceptor/Attack,6,FALSE,no,1,jet,2,mid/low mounted,delta,15.67,11,1
+McDonnellDouglas AV-8-Harrier,McDonnellDouglas AV-8-Harrier,Military Fighter/Interceptor/Attack,6,FALSE,no,1,jet,1,high mounted,swept back,14.12,9.25,1
+PAC JF-17-Thunder,PAC JF-17-Thunder,Military Fighter/Interceptor/Attack,6,FALSE,no,1,jet,1,mid/low mounted,delta,14.93,9.48,1
+Panavia Tornado,Panavia Tornado,Military Fighter/Interceptor/Attack,6,FALSE,no,2,Jet,1,high mounted,variable swept,16.72,8.6,1
+SAAB JAS-39B,SAAB JAS-39B,Military Fighter/Interceptor/Attack,6,FALSE,yes,1,jet,1,mid/low mounted,delta,14.1,8.4,1
+Chengdu J-7,Chengdu J-7,Military Fighter/Interceptor/Attack,6,TRUE,no,1,jet,1,mid/low mounted,delta,14.884,8.32,1
+Dassault Mirage-2000,Dassault Mirage 2000,Military Fighter/Interceptor/Attack,6,TRUE,no,1,jet,1,mid/low mounted,delta,14.36,9.13,1
+FairchildRepublic A-10A-ThunderboltII,Fairchild Republic A-10 Thunderbolt II,Military Fighter/Interceptor/Attack,6,TRUE,no,2,jet,2,mid/low mounted,straight,16.26,17.53,2
+GeneralDynamics F-16,General Dynamics F-16 Fighting Falcon,Military Fighter/Interceptor/Attack,6,TRUE,no,1,jet,1,mid/low mounted,delta,15.06,9.96,1
+GeneralDynamics F-16C,General Dynamics F-16 Fighting Falcon,Military Fighter/Interceptor/Attack,6,TRUE,no,1,jet,1,mid/low mounted,delta,15.06,9.96,1
+Grumman F-14A,Grumman F-14 Tomcat,Military Fighter/Interceptor/Attack,6,TRUE,no,2,jet,2,high mounted,variable swept,19.13,20,2
+Grumman F-14D,Grumman F-14 Tomcat,Military Fighter/Interceptor/Attack,6,TRUE,no,2,jet,2,high mounted,variable swept,19.13,20,2
+IAI Kfir,IAI Kfir,Military Fighter/Interceptor/Attack,6,TRUE,yes,1,jet,1,mid/low mounted,delta,15.65,8.22,1
+McDonnellDouglas F-15E,McDonnell Douglas F-15 Eagle,Military Fighter/Interceptor/Attack,6,TRUE,no,2,jet,2,mid/low mounted,delta,19.43,13.06,1
+McDonnellDouglas F-4J,McDonnell Douglas F-4 Phantom II,Military Fighter/Interceptor/Attack,6,TRUE,no,2,jet,1,mid/low mounted,swept back,19.2,11.7,1
+McDonnellDouglas F-18A,McDonnell Douglas F/A-18 Hornet,Military Fighter/Interceptor/Attack,6,TRUE,no,2,jet,2,mid/low mounted,straight,17.1,12.3,1
+McDonnellDouglas F-18B,McDonnell Douglas F/A-18 Hornet,Military Fighter/Interceptor/Attack,6,TRUE,no,2,jet,2,mid/low mounted,straight,17.1,12.3,1
+McDonnellDouglas F-18F,McDonnell Douglas F/A-18 Hornet,Military Fighter/Interceptor/Attack,6,TRUE,no,2,jet,2,mid/low mounted,straight,17.1,12.3,1
+Mikoyan MiG-27D,Mikoyan MiG-27,Military Fighter/Interceptor/Attack,6,TRUE,no,1,jet,1,mid/low mounted,variable swept,17.08,13.97,1
+Mikoyan MiG-29B,Mikoyan MiG-29,Military Fighter/Interceptor/Attack,6,TRUE,no,2,jet,2,mid/low mounted,swept back,17.32,11.36,1
+Mikoyan MiG29,Mikoyan MiG-29,Military Fighter/Interceptor/Attack,6,TRUE,no,2,jet,2,mid/low mounted,swept back,17.32,11.36,1
+Mikoyan MiG31,Mikoyan MiG-31,Military Fighter/Interceptor/Attack,6,TRUE,no,2,jet,2,mid/low mounted,swept back,22.62,13.456,1
+Mikoyan MiG-21-Fishbed,Mikoyan-Gurevich MiG-21,Military Fighter/Interceptor/Attack,6,TRUE,no,1,jet,1,mid/low mounted,delta,14.7,7.154,1
+Mikoyan MiG-25E,Mikoyan-Gurevich MiG-25,Military Fighter/Interceptor/Attack,6,TRUE,no,2,jet,2,mid/low mounted,swept back,19.75,14.01,1
+Northrop F-5E,Northrop F-5B Freedom Fighter,Military Fighter/Interceptor/Attack,6,TRUE,no,2,jet,1,mid/low mounted,straight,14.6876,8.13,1
+Northrop T-38A-Talon,Northrop T-38 Talon,Military Fighter/Interceptor/Attack,6,TRUE,no,2,jet,1,mid/low mounted,straight,14.14,7.7,1
+Sepecat Jaguar-GR1,SEPECAT Jaguar,Military Fighter/Interceptor/Attack,6,TRUE,no,2,jet,1,mid/low mounted,swept back,16.83,8.69,1
+Sukhoi Su-24M,Sukhoi Su-24,Military Fighter/Interceptor/Attack,6,TRUE,no,2,jet,1,mid/low mounted,variable swept,22.53,17.64,2
+Sukhoi SU-27B,Sukhoi Su-27,Military Fighter/Interceptor/Attack,6,TRUE,no,2,jet,2,mid/low mounted,swept back,21.9,14.7,1
+Sukhoi SU-34,Sukhoi Su-34,Military Fighter/Interceptor/Attack,6,TRUE,yes,2,jet,2,mid/low mounted,swept back,23.34,14.7,1
+Yakovlev Yak-130,Yakovlev Yak-130,Military Fighter/Interceptor/Attack,6,TRUE,no,2,jet,1,mid/low mounted,straight,11.49,9.84,1
+Dassault AlphaJet,Dassault AlphaJet,Military Trainer,7,FALSE,no,2,jet,1,high mounted,swept back,13.23,9.11,1
+McDonnellDouglas T-45-Goshawk,McDonnellDouglas T-45-Goshawk,Military Trainer,7,FALSE,no,1,jet,1,mid/low mounted,swept back,11.99,9.39,1
+BAE Hawk-MK-1A,BAE Systems Hawk,Military Trainer,7,TRUE,no,1,jet,1,mid/low mounted,swept back,12.43,9.94,1
+NorthropGrumman GlobalHawk-UAV,NorthropGrumman GlobalHawk-UAV,Military Drone,8,FALSE,no,1,jet,2,mid/low mounted,straight,14.50,39.9,4
+LockheedCorporation F-117A,LockheedCorporation F-117A,Military Reconnaissance,9,FALSE,no,2,jet,2,mid/low mounted,swept back,20.09,13.21,1
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,

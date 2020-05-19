@@ -1,5 +1,7 @@
 # RarePlanes
 
+![](figures/AIReverie_Airports_Weather.jpg)
+
 This repository contains scripts for inspection, preparation and evaluation of the RarePlanes dataset. 
 
 Details are available at [LINK TO USER GUIDE].

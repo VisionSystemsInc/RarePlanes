@@ -21,7 +21,7 @@ def rareplanes_tiler(untiled_image_dir,
     """Function to tile a set of images into smaller square chunks with embedded georeferencing info
     allowing an end user to specify the size of the tile, the overlap of each tile, and when to discard
     a tile if it contains blank datasets.
-    :arg
+    Args:
         - untiled_image_dir (str): directory contained full untiled satellite images
         - untiled_geojson_dir (str): directory for full untiled geojson fukes
         - image_tiles_out_dir (str): output directory for tiled imagery.
