@@ -47,6 +47,10 @@ def parse_xml_image(xml_fpath):
     image_metadata = parse_xml_image_metadata(image)
     annotations = []
     for obj in image.findall("object"):
+        object_type = obj.find('category0').text
+        if object_type != 'Airplane':
+            continue
+
         annotation = parse_xml_annotation(obj)
 
         # check if annotation is not empty
@@ -65,9 +69,6 @@ def parse_xml_annotation(obj):
     returns:
         - annotation (dict): annotation info as a flat dict
     """
-
-    cats = parse_xml_categories(obj)
-
     # get the bbox
     bbox = obj.find("bndbox2D")
 

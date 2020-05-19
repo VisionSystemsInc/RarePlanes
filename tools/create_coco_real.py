@@ -41,5 +41,4 @@ if __name__ == '__main__':
     create_coco_annotations(args.image_dir,
                             args.geojson_dir,
                             args.output_path,
-                            args.category_attribute,
-                            args.preset_categories)
+                            args.category_attribute)
