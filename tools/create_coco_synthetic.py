@@ -3,7 +3,6 @@ import glob
 import json
 import logging
 import os
-
 import cv2
 import numpy as np
 import pandas as pd
@@ -11,13 +10,17 @@ import pandas as pd
 from rareplanes.xmls import parse_xml_image, get_polygon
 
 
-def create_coco_annotations(data_dir, segmentation, output_path, category_attribute):
+def create_coco_annotations(data_dir, segmentation, output_path, category_attribute, custom_class_lookup_csv):
     """ parse the geojson files and create the coco annotations file
     Args:
         - image_dir (str): directory containing the tiled images
         - geojson_dir (str): directory containing the geojson files
         - output_path (str): json file containing the coco annotations
-        - category_attribute (str):
+        - category_attribute (str): One of ['role','num_engines', 'propulsion', 'canards', 'num_tail_fins',
+       'wing_position', 'wing_type', 'faa_wingspan_class', 'custom_id'].  Note that 'custom_id' must be first
+       created on the real dataset using the create_custom_classes function.
+        - custom_class_lookup_csv(str): path to the output csv from the create_custom_classes
+        function.  Must be included if using the custom_id to create coco labels.
     Returns
         - annotations (list): list of coco annotations
     """
@@ -28,7 +31,43 @@ def create_coco_annotations(data_dir, segmentation, output_path, category_attrib
     if category_attribute is None:
         categories = [{'id': 1, 'name': 'aircraft'}]
     else:
-        categories = set(conversion_table[category_attribute])
+        if category_attribute == "num_engines":
+            categories = {0, 1, 2, 3, 4}
+        elif category_attribute == "role_id":
+            categories = {1, 2, 3, 4, 5, 6, 7}
+        elif category_attribute == "role":
+            category_attribute = "role_id"
+            categories = {1, 2, 3, 4, 5, 6, 7}
+        elif category_attribute == "canards":
+            categories = {"no", "yes"}
+        elif category_attribute == "propulsion":
+            categories = {"jet", "propeller", "unpowered"}
+        elif category_attribute == "num_tail_fins":
+            categories = {0, 1, 2, 3, 4}
+        elif category_attribute == "wing_position":
+            categories = {"high mounted", "mid/low mounted"}
+        elif category_attribute == "wing_type":
+            categories = {"delta", "straight", "swept", "variable swept"}
+        elif category_attribute == "faa_wingspan_class":
+            categories = {1, 2, 3, 4, 5, 6}
+        elif category_attribute == "custom_id":
+            if custom_class_lookup_csv is None:
+                print("Please read in custom_class_lookup.csv output from the create_custom_classes function")
+            else:
+                lookup_csv = pd.read_csv(custom_class_lookup_csv)
+                custom_list = list(lookup_csv['custom_id'])
+                custom_list.sort()
+                categories = set(custom_list)
+                category_attributes = list(lookup_csv.columns)
+                category_attributes.remove("custom_id")
+                category_attributes.remove("Unnamed: 0")
+                conversion_table = pd.merge(conversion_table, lookup_csv, on=category_attributes, how='left')
+                conversion_table = conversion_table[conversion_table['custom_id'] == conversion_table['custom_id']]  # remove NANs
+        else:
+            print("Unknown category specified please use one of the following:")
+            print("num_engines, role_id, role, canards, propulsion, num_tail_fins,")
+            print("wing_position, wing_type, faa_wingspan_class, or custom_id")
+            exit()
         categories = [{'id': i, 'name': n} for i, n in enumerate(categories)]
         cat2id = {k['name']: k['id'] for k in categories}
         make2id = {'_'.join(make.split(' ')): cat2id[cat] for make, cat in
@@ -74,7 +113,7 @@ def create_coco_annotations(data_dir, segmentation, output_path, category_attrib
         # create images metadata
         width, height = 1920, 1080  # default resolution of the synthetic images
         im_name = os.path.basename(path)
-        im_id = i+1
+        im_id = i + 1
         image_dic = {'width': width,
                      'height': height,
                      'file_name': im_name,
@@ -124,7 +163,10 @@ if __name__ == '__main__':
     parser.add_argument('--output_path', default='instances.json',
                         help='json file path')
     parser.add_argument('--category_attribute', default=None)
+    parser.add_argument('--custom_class_lookup_csv', default=None)
     args = parser.parse_args()
     create_coco_annotations(args.data_dir,
+                            args.segmentation,
+                            args.output_path,
                             args.category_attribute,
-                            args.preset_categories)
+                            args.custom_class_lookup_csv)
