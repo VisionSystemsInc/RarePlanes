@@ -1,58 +1,58 @@
-reverie_make,make,role,role_id,In_Observed,canards,num_engines,propulsion,num_tail_fins,wing_position,wing_type,gt_length,gt_wingspan,faa_wingspan_class
-ATR_ATR-72,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,propeller,1,high mounted,straight,27.17,27.05,3
-Airbus_A-319,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,68.96,35.8,3
-Airbus_A-340,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,4,jet,1,mid/low mounted,swept,59.39,60.3,5
-Airbus_A300,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept,53.61,44.84,4
-Airbus_A320,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,37.57,35.8,3
-Airbus_A330-300,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept,58.82,60.3,5
-Airbus_A380,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,4,jet,1,mid/low mounted,swept,72.72,79.75,6
-Airbus_A380-800,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,4,jet,1,mid/low mounted,swept,72.72,79.75,6
-BAE_146-100,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,4,jet,1,high mounted,swept,26.19,26.34,3
-BAE_146-300,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,4,jet,1,high mounted,swept,31,26.34,3
-Boeing_707,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,4,jet,1,mid/low mounted,swept,44.22,39.88,4
-Boeing_717-200,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,37.8,28.4,3
-Boeing_727,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,3,jet,1,mid/low mounted,swept,40.59,32.92,3
-Boeing_727-100,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,3,jet,1,mid/low mounted,swept,40.59,32.92,3
-Boeing_737,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,29,28,3
-Boeing_737-200,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,30.53,28,3
-Boeing_737-300,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,33.4,28.88,3
-Boeing_747,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,4,jet,1,mid/low mounted,swept,56.3,59.6,5
-Boeing_747-200,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,4,jet,1,mid/low mounted,swept,70.66,59.6,5
-Boeing_747-400,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,4,jet,1,mid/low mounted,swept,70.66,64.4,5
-Boeing_757-300,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept,54.4,38,4
-Boeing_767,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept,54.94,47.57,4
-Boeing_767-200,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept,48.51,47.57,4
-Boeing_767-400,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept,54.94,51.92,4
-Boeing_777-300,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept,73.86,60.93,5
-Boeing_BBJ-2,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,39.5,35.79,3
-Bombardier_BD-700-GlobalExpress,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,29.5,28.7,3
-Bombardier_CRJ-705,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,32.3,23.2,2
-Bombardier_Challenger-300,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,20.92,19.46,2
-Bombardier_Challenger-604,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,20.9,19.6,2
-Bombardier_Learjet,Small Civil Transport/Utility,Small Civil Transport/Utility,1,TRUE,no,2,jet,1,mid/low mounted,straight,14.83,12.04,1
-Cessna_170,Small Civil Transport/Utility,Small Civil Transport/Utility,1,TRUE,no,1,propeller,1,high mounted,straight,7.62,11,1
-Cessna_172,Small Civil Transport/Utility,Small Civil Transport/Utility,1,TRUE,no,1,propeller,1,high mounted,straight,8.28,11,1
-Cessna_310,Small Civil Transport/Utility,Small Civil Transport/Utility,1,TRUE,no,2,propeller,1,mid/low mounted,straight,8.23,10.67,1
-Cessna_Citation-CJ4,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,straight,16.26,15.49,2
-Dassault_Falcon-100,Small Civil Transport/Utility,Small Civil Transport/Utility,1,TRUE,no,2,jet,1,mid/low mounted,swept,13.86,13.08,1
-Dassault_Falcon-2000,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,3,jet,1,mid/low mounted,swept,20.23,19.33,2
-Dassault_Falcon-900,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,20.21,19.33,2
-DeHavillandCanada_DHC-2-Beaver,Small Civil Transport/Utility,Small Civil Transport/Utility,1,TRUE,no,1,propeller,1,high mounted,straight,9.22,14.63,1
-DeHavillandCanada_DHC-3-Otter,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,1,propeller,1,high mounted,straight,12.8,17.69,2
-Dornier_Do-228,Dornier Do 228,Military Transport/Utility/AWAC,4,TRUE,no,2,propeller,1,high mounted,straight,16.56,16.97,2
-Douglas_DC-3,Douglas C-47 Skytrain,Military Transport/Utility/AWAC,4,TRUE,no,2,propeller,1,mid/low mounted,straight,19.43,29.11,3
-Embraer_ERJ-135,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,26.33,20.04,2
-Embraer_Legacy,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,19.69,19.25,2
-Fokker_100,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,delta,35.53,28.08,3
-Gulfstream_G200,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,18.97,17.7,2
-Gulfstream_GIII,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,25.32,23.72,2
-HBC_Hawker-4000,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,21.08,18.8,2
-Let_L-200Morova,Small Civil Transport/Utility,Small Civil Transport/Utility,1,TRUE,no,2,propeller,2,mid/low mounted,straight,8.61,12.31,1
-LockheedCorp_L-1011-TriStar,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,3,jet,1,mid/low mounted,swept,54.17,47.35,4
-McDonnellDouglas_DC-9-30,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,36.36,28.44,3
-McDonnellDouglas_MD-11,Large Civil Transport/Utility,Large Civil Transport/Utility,3,TRUE,no,3,jet,1,mid/low mounted,swept,61,51.97,4
-PiperAircraft_PA-28,Small Civil Transport/Utility,Small Civil Transport/Utility,1,TRUE,no,1,propeller,1,mid/low mounted,straight,7.16,9.2,1
-Private_Cessna,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,16.9,16.31,2
-SudAviation_Caravelle,Medium Civil Transport/Utility,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,32.01,34.3,3
-Tupolev_154,Large Civil Transport/Utility,Large Civil Transport/Utility,2,TRUE,no,3,jet,1,mid/low mounted,swept,48,37.55,4
-Tupolev_Tu-204,Tupolev Tu-204,Military Transport/Utility/AWAC,4,TRUE,no,2,jet,1,mid/low mounted,swept,46.14,41.8,4
+reverie_make,role,role_id,In_Observed,canards,num_engines,propulsion,num_tail_fins,wing_position,wing_type,gt_length,gt_wingspan,faa_wingspan_class
+Dornier_Do-228,Medium Civil Transport/Utility,2,TRUE,no,2,propeller,1,high mounted,straight,16.56,16.97,2
+Douglas_DC-3,Military Transport/Utility/AWAC,4,TRUE,no,2,propeller,1,mid/low mounted,straight,19.43,29.11,3
+Airbus_A-340,Large Civil Transport/Utility,3,TRUE,no,4,jet,1,mid/low mounted,swept,59.39,60.3,5
+Airbus_A300,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept,53.61,44.84,4
+Airbus_A330-300,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept,58.82,60.3,5
+Airbus_A380,Large Civil Transport/Utility,3,TRUE,no,4,jet,1,mid/low mounted,swept,72.72,79.75,6
+Airbus_A380-800,Large Civil Transport/Utility,3,TRUE,no,4,jet,1,mid/low mounted,swept,72.72,79.75,6
+Boeing_707,Large Civil Transport/Utility,3,TRUE,no,4,jet,1,mid/low mounted,swept,44.22,39.88,4
+Boeing_747,Large Civil Transport/Utility,3,TRUE,no,4,jet,1,mid/low mounted,swept,56.3,59.6,5
+Boeing_747-200,Large Civil Transport/Utility,3,TRUE,no,4,jet,1,mid/low mounted,swept,70.66,59.6,5
+Boeing_747-400,Large Civil Transport/Utility,3,TRUE,no,4,jet,1,mid/low mounted,swept,70.66,64.4,5
+Boeing_757-300,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept,54.4,38,4
+Boeing_767,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept,54.94,47.57,4
+Boeing_767-200,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept,48.51,47.57,4
+Boeing_767-400,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept,54.94,51.92,4
+Boeing_777-300,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept,73.86,60.93,5
+LockheedCorp_L-1011-TriStar,Large Civil Transport/Utility,3,TRUE,no,3,jet,1,mid/low mounted,swept,54.17,47.35,4
+McDonnellDouglas_MD-11,Large Civil Transport/Utility,3,TRUE,no,3,jet,1,mid/low mounted,swept,61,51.97,4
+Tupolev_154,Large Civil Transport/Utility,2,TRUE,no,3,jet,1,mid/low mounted,swept,48,37.55,4
+ATR_ATR-72,Medium Civil Transport/Utility,2,TRUE,no,2,propeller,1,high mounted,straight,27.17,27.05,3
+Airbus_A-319,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,68.96,35.8,3
+Airbus_A320,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,37.57,35.8,3
+BAE_146-100,Medium Civil Transport/Utility,2,TRUE,no,4,jet,1,high mounted,swept,26.19,26.34,3
+BAE_146-300,Medium Civil Transport/Utility,2,TRUE,no,4,jet,1,high mounted,swept,31,26.34,3
+Boeing_717-200,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,37.8,28.4,3
+Boeing_727,Medium Civil Transport/Utility,2,TRUE,no,3,jet,1,mid/low mounted,swept,40.59,32.92,3
+Boeing_727-100,Medium Civil Transport/Utility,2,TRUE,no,3,jet,1,mid/low mounted,swept,40.59,32.92,3
+Boeing_737,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,29,28,3
+Boeing_737-200,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,30.53,28,3
+Boeing_737-300,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,33.4,28.88,3
+Boeing_BBJ-2,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,39.5,35.79,3
+Bombardier_BD-700-GlobalExpress,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,29.5,28.7,3
+Bombardier_CRJ-705,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,32.3,23.2,2
+Bombardier_Challenger-300,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,20.92,19.46,2
+Bombardier_Challenger-604,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,20.9,19.6,2
+Cessna_Citation-CJ4,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,straight,16.26,15.49,2
+Dassault_Falcon-2000,Medium Civil Transport/Utility,2,TRUE,no,3,jet,1,mid/low mounted,swept,20.23,19.33,2
+Dassault_Falcon-900,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,20.21,19.33,2
+DeHavillandCanada_DHC-3-Otter,Medium Civil Transport/Utility,2,TRUE,no,1,propeller,1,high mounted,straight,12.8,17.69,2
+Embraer_ERJ-135,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,26.33,20.04,2
+Embraer_Legacy,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,19.69,19.25,2
+Fokker_100,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,delta,35.53,28.08,3
+Gulfstream_G200,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,18.97,17.7,2
+Gulfstream_GIII,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,25.32,23.72,2
+HBC_Hawker-4000,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,21.08,18.8,2
+McDonnellDouglas_DC-9-30,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,36.36,28.44,3
+Private_Cessna,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,16.9,16.31,2
+SudAviation_Caravelle,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,32.01,34.3,3
+Bombardier_Learjet,Small Civil Transport/Utility,1,TRUE,no,2,jet,1,mid/low mounted,straight,14.83,12.04,1
+Cessna_170,Small Civil Transport/Utility,1,TRUE,no,1,propeller,1,high mounted,straight,7.62,11,1
+Cessna_172,Small Civil Transport/Utility,1,TRUE,no,1,propeller,1,high mounted,straight,8.28,11,1
+Cessna_310,Small Civil Transport/Utility,1,TRUE,no,2,propeller,1,mid/low mounted,straight,8.23,10.67,1
+Dassault_Falcon-100,Small Civil Transport/Utility,1,TRUE,no,2,jet,1,mid/low mounted,swept,13.86,13.08,1
+DeHavillandCanada_DHC-2-Beaver,Small Civil Transport/Utility,1,TRUE,no,1,propeller,1,high mounted,straight,9.22,14.63,1
+Let_L-200Morova,Small Civil Transport/Utility,1,TRUE,no,2,propeller,2,mid/low mounted,straight,8.61,12.31,1
+PiperAircraft_PA-28,Small Civil Transport/Utility,1,TRUE,no,1,propeller,1,mid/low mounted,straight,7.16,9.2,1
+Tupolev_Tu-204,Large Civil Transport/Utility,3,TRUE,no,2,jet,1,mid/low mounted,swept,46.14,41.8,4
