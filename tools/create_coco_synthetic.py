@@ -125,6 +125,6 @@ if __name__ == '__main__':
                         help='json file path')
     parser.add_argument('--category_attribute', default=None)
     args = parser.parse_args()
-    create_coco_annotations(args.image_dir,
+    create_coco_annotations(args.data_dir,
                             args.category_attribute,
                             args.preset_categories)
