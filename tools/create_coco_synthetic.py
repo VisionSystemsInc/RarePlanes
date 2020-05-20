@@ -57,12 +57,22 @@ def create_coco_annotations(data_dir, segmentation, output_path, category_attrib
                 lookup_csv = pd.read_csv(custom_class_lookup_csv)
                 custom_list = list(lookup_csv['custom_id'])
                 custom_list.sort()
-                categories = set(custom_list)
                 category_attributes = list(lookup_csv.columns)
                 category_attributes.remove("custom_id")
                 category_attributes.remove("Unnamed: 0")
                 conversion_table = pd.merge(conversion_table, lookup_csv, on=category_attributes, how='left')
-                conversion_table = conversion_table[conversion_table['custom_id'] == conversion_table['custom_id']]  # remove NANs
+                conversion_table.sort_values(by=['custom_id'], inplace=True)
+                max_val = np.max(conversion_table['custom_id'])
+                fixed_ids = []
+                for _, row in conversion_table.iterrows():
+                    if row['custom_id'] != row['custom_id']:  # Fix NANs
+                        max_val += 1
+                        fixed_ids.append(max_val)
+                        custom_list.append(max_val)
+                    else:
+                        fixed_ids.append(row['custom_id'])
+                categories = set(custom_list)
+                conversion_table['custom_id'] = fixed_ids
         else:
             print("Unknown category specified please use one of the following:")
             print("num_engines, role_id, role, canards, propulsion, num_tail_fins,")
