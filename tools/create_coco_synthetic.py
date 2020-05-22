@@ -13,11 +13,11 @@ from rareplanes.xmls import parse_xml_image, get_polygon
 def create_coco_annotations(data_dir, segmentation, output_path, category_attribute, custom_class_lookup_csv):
     """ parse the geojson files and create the coco annotations file
     Args:
-        - image_dir (str): directory containing the tiled images
-        - geojson_dir (str): directory containing the geojson files
+        - data_dir (str): directory containing the tiled images
+        - segmentation (str): Type of segmentation, choose between none, simple or full
         - output_path (str): json file containing the coco annotations
-        - category_attribute (str): One of ['role','num_engines', 'propulsion', 'canards', 'num_tail_fins',
-       'wing_position', 'wing_type', 'faa_wingspan_class', 'custom_id'].  Note that 'custom_id' must be first
+        - category_attribute (str): One of 'role','num_engines', 'propulsion', 'canards', 'num_tail_fins',
+       'wing_position', 'wing_type', 'faa_wingspan_class', or 'custom_id'.  Note that 'custom_id' must be first
        created on the real dataset using the create_custom_classes function.
         - custom_class_lookup_csv(str): path to the output csv from the create_custom_classes
         function.  Must be included if using the custom_id to create coco labels.
