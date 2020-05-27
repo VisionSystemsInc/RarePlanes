@@ -14,14 +14,17 @@ class Visualizer:
 
     def __init__(self, data_dir, segmentation='none', figsize=(15, 10)):
         """ load the data in data_dir and create observation triplets"""
-        xmls = glob.glob(data_dir + '/*.xml')
+        xmls = glob.glob(os.path.join(data_dir, 'xmls') + '/*.xml')
         # create triplets xml, image, mask
         self.data = []
         for path in xmls:
-            impath = path.replace('xml', 'png')
-            maskpath = path.replace('.xml', '_mask.png')
-            if os.path.isfile(impath) and os.path.isfile(maskpath):
-                self.data.append([path, impath, maskpath])
+            xml_name = os.path.basename(path)
+            im_name = xml_name.replace('xml', 'png')
+            mask_name = xml_name.replace('.xml', '_mask.png')
+            im_path = os.path.join(data_dir, 'images', im_name)
+            mask_path = os.path.join(data_dir, 'masks', mask_name)
+            if os.path.isfile(im_path) and os.path.isfile(mask_path):
+                self.data.append([path, im_path, mask_path])
         print(f'{data_dir} contains {len(self.data)} valid observations')
         self.figsize = figsize
         self.segmentation = segmentation

@@ -41,9 +41,9 @@ def download(dataset_type, split, training_only):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--dataset_type', type=str, required=True, nargs='+',
-                        help='either real or synthetic.')
+                        help='real, synthetic.')
     parser.add_argument('--split', type=str, required=True, nargs='+',
-                        help='either train or test')
+                        help='train,- test')
     parser.add_argument('--training_only', action='store_true',
                         help='only download data for model training and validation')
     args = parser.parse_args()

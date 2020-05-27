@@ -1,3 +1,4 @@
 rareplanes/__pycache__/
 notebooks/.ipynb_checkpoints/*
-datasets/example/*
+datasets/synthetic/*
+datasets/real/*

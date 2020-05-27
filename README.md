@@ -4,7 +4,7 @@
 
 This repository contains scripts for inspection, preparation and evaluation of the RarePlanes dataset. 
 
-Details are available at [LINK TO USER GUIDE].
+The [user guide](https://www.cosmiqworks.org/rareplanes-public-user-guide/) provides a more detailed description of the dataset.
 
 ## Paper
 
@@ -67,6 +67,6 @@ python tools/create_coco.py --image_dir datasets/observed/train/PS-RGB_tiled
 
 ## Authors
 
-* **Thomas Hossler** 
-* **Jake Shermeyer**
+* **[Thomas Hossler](thomas.hossler@aireverie.com)** 
+* **[Jake Shermeyer](jshermeyer@iqt.org)**
 

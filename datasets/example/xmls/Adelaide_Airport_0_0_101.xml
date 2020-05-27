@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<image>
+	<annotation vendor="AIReverie" />
+	<filename>Adelaide_Airport_0_0_101.png</filename>
+	<time_stamp>2020.04.14-21.48.41</time_stamp>
+	<image_resolution>
+		<width>1920</width>
+		<height>1080</height>
+	</image_resolution>
+	<camera>
+		<location>
+			<x>80064.9375</x>
+			<y>-58633.945313</y>
+			<z>94000.0</z>
+		</location>
+		<rotation>
+			<pitch>-80.319466</pitch>
+			<roll>-0.000089</roll>
+			<yaw>174.249344</yaw>
+		</rotation>
+		<intrinsics>
+			<f_x>239.601089</f_x>
+			<f_y>239.601089</f_y>
+			<x_0>960.0</x_0>
+			<y_0>540.0</y_0>
+			<s>0.0</s>
+		</intrinsics>
+		<focal_length>2350.0</focal_length>
+		<focus_distance>100000.0</focus_distance>
+		<horizontal_field_of_view>34.068344</horizontal_field_of_view>
+	</camera>
+	<platform>
+		<top_middle_horz_dist>60360.855469</top_middle_horz_dist>
+		<center_horz_dist>58217.90625</center_horz_dist>
+		<bottm_middle_horz_dist>56913.3125</bottm_middle_horz_dist>
+		<center_horz_dist>58217.90625</center_horz_dist>
+		<left_vert_dist>33503.890625</left_vert_dist>
+		<ctr_vert_dist>33459.511719</ctr_vert_dist>
+		<right_vert_dist>33504.152344</right_vert_dist>
+		<bottm_middle_horz_dist>56913.3125</bottm_middle_horz_dist>
+		<top_middle_dist>97495.328125</top_middle_dist>
+		<ctr_dist>92957.734375</ctr_dist>
+		<bottom_middle_dist>91794.492188</bottom_middle_dist>
+		<top_middle_elevation_angle>70.291794</top_middle_elevation_angle>
+		<center_elevation_angle>80.319588</center_elevation_angle>
+		<bottom_mid_elevation_angle>90.362747</bottom_mid_elevation_angle>
+		<altitude>91792.648438</altitude>
+		<forward>X=-0.995 Y=0.100 Z=0.000</forward>
+		<topv>X=-0.336 Y=0.034 Z=-0.941</topv>
+		<ctrv>X=-0.167 Y=0.017 Z=-0.986</ctrv>
+		<botv>X=0.006 Y=-0.001 Z=-1.000</botv>
+	</platform>
+	<num_object_mask_objects>17</num_object_mask_objects>
+	<object id="001A48A64243ECF21B83D7B9209B768D" persistent_id="SM_Airplane_Civil_Sport_PiperAircraft_PA-28_BPC_C_259StaticMeshComponent">
+		<category0>Airplane</category0>
+		<category1>Civil</category1>
+		<category2>Sport</category2>
+		<category3>PiperAircraft</category3>
+		<category4>PA-28</category4>
+		<object_mask_color_rgba>145,247,100,255</object_mask_color_rgba>
+		<Sockets>
+			<Bone_PlaneAnnotation_Nose>
+				<world>X=64142.285 Y=-57086.918 Z=-120.883</world>
+				<screen>X=961.844 Y=541.874</screen>
+			</Bone_PlaneAnnotation_Nose>
+			<Bone_PlaneAnnotation_RightWing>
+				<world>X=64220.809 Y=-56547.723 Z=-109.215</world>
+				<screen>X=943.976 Y=542.589</screen>
+			</Bone_PlaneAnnotation_RightWing>
+			<Bone_PlaneAnnotation_Tail>
+				<world>X=63598.867 Y=-56647.684 Z=-137.207</world>
+				<screen>X=949.301 Y=523.068</screen>
+			</Bone_PlaneAnnotation_Tail>
+			<Bone_PlaneAnnotation_LeftWing>
+				<world>X=63631.539 Y=-57276.758 Z=-109.215</world>
+				<screen>X=969.716 Y=525.994</screen>
+			</Bone_PlaneAnnotation_LeftWing>
+		</Sockets>
+		<bndbox2D>
+			<xmin>943</xmin>
+			<ymin>520</ymin>
+			<xmax>970</xmax>
+			<ymax>543</ymax>
+			<ratio_visible>0.0</ratio_visible>
+			<focus_blur>-0.043536</focus_blur>
+		</bndbox2D>
+	</object>
+	<object id="7A3E4EBD4E4337F947B9CE88B0D74005" persistent_id="SM_Airplane_Civil_Transport_Boeing_737_1_BPC_C_299StaticMeshComponent">
+		<category0>Airplane</category0>
+		<category1>Civil</category1>
+		<category2>Transport</category2>
+		<category3>Boeing</category3>
+		<category4>737</category4>
+		<object_mask_color_rgba>214,109,25,255</object_mask_color_rgba>
+		<Sockets>
+			<Bone_PlaneAnnotation_Nose>
+				<world>X=52242.348 Y=-84943.234 Z=-6.298</world>
+				<screen>X=1896.794 Y=252.728</screen>
+			</Bone_PlaneAnnotation_Nose>
+			<Bone_PlaneAnnotation_RightWing>
+				<world>X=50139.770 Y=-85752.313 Z=21.817</world>
+				<screen>X=1926.547 Y=189.585</screen>
+			</Bone_PlaneAnnotation_RightWing>
+			<Bone_PlaneAnnotation_Tail>
+				<world>X=50764.910 Y=-87383.648 Z=129.289</world>
+				<screen>X=1979.353 Y=213.164</screen>
+			</Bone_PlaneAnnotation_Tail>
+			<Bone_PlaneAnnotation_LeftWing>
+				<world>X=52500.160 Y=-87181.305 Z=21.817</world>
+				<screen>X=1969.110 Y=267.598</screen>
+			</Bone_PlaneAnnotation_LeftWing>
+		</Sockets>
+		<bndbox2D>
+			<xmin>1897</xmin>
+			<ymin>223</ymin>
+			<xmax>1919</xmax>
+			<ymax>253</ymax>
+			<ratio_visible>0.0</ratio_visible>
+			<focus_blur>0.022729</focus_blur>
+		</bndbox2D>
+	</object>
+	<object id="34F0CA5E4FDF4493D9F4FFB8ABE87860" persistent_id="SM_Airplane_Civil_Transport_Boeing_717-200_1_BPC_C_313StaticMeshComponent">
+		<category0>Airplane</category0>
+		<category1>Civil</category1>
+		<category2>Transport</category2>
+		<category3>Boeing</category3>
+		<category4>717-200</category4>
+		<object_mask_color_rgba>7,199,106,255</object_mask_color_rgba>
+		<Sockets>
+			<Bone_PlaneAnnotation_Nose>
+				<world>X=49258.285 Y=-80507.656 Z=-9.833</world>
+				<screen>X=1758.966 Y=146.265</screen>
+			</Bone_PlaneAnnotation_Nose>
+			<Bone_PlaneAnnotation_RightWing>
+				<world>X=46639.219 Y=-81286.117 Z=-27.887</world>
+				<screen>X=1788.541 Y=68.389</screen>
+			</Bone_PlaneAnnotation_RightWing>
+			<Bone_PlaneAnnotation_Tail>
+				<world>X=47075.918 Y=-83039.500 Z=126.630</world>
+				<screen>X=1845.281 Y=85.626</screen>
+			</Bone_PlaneAnnotation_Tail>
+			<Bone_PlaneAnnotation_LeftWing>
+				<world>X=48874.531 Y=-83212.883 Z=-27.887</world>
+				<screen>X=1846.409 Y=143.001</screen>
+			</Bone_PlaneAnnotation_LeftWing>
+		</Sockets>
+		<bndbox2D>
+			<xmin>1759</xmin>
+			<ymin>60</ymin>
+			<xmax>1869</xmax>
+			<ymax>146</ymax>
+			<ratio_visible>0.0</ratio_visible>
+			<focus_blur>0.02233</focus_blur>
+		</bndbox2D>
+	</object>
+	<object id="242194D94F5A5D23CEDC6BB8388B5BBB" persistent_id="SM_Airplane_Civil_Private_Bombardier_Learjet_35-A_BPC_C_266StaticMeshComponent">
+		<category0>Airplane</category0>
+		<category1>Civil</category1>
+		<category2>Private</category2>
+		<category3>Bombardier</category3>
+		<category4>Learjet</category4>
+		<category5>35-A</category5>
+		<object_mask_color_rgba>7,88,28,255</object_mask_color_rgba>
+		<Sockets>
+			<Bone_PlaneAnnotation_Nose>
+				<world>X=51026.063 Y=-45909.242 Z=-217.980</world>
+				<screen>X=648.073 Y=95.507</screen>
+			</Bone_PlaneAnnotation_Nose>
+			<Bone_PlaneAnnotation_RightWing>
+				<world>X=50764.039 Y=-44930.797 Z=-205.789</world>
+				<screen>X=617.939 Y=84.353</screen>
+			</Bone_PlaneAnnotation_RightWing>
+			<Bone_PlaneAnnotation_Tail>
+				<world>X=49948.215 Y=-44974.910 Z=-130.540</world>
+				<screen>X=622.168 Y=58.806</screen>
+			</Bone_PlaneAnnotation_Tail>
+			<Bone_PlaneAnnotation_LeftWing>
+				<world>X=50020.336 Y=-45788.734 Z=-205.789</world>
+				<screen>X=647.965 Y=64.274</screen>
+			</Bone_PlaneAnnotation_LeftWing>
+		</Sockets>
+		<bndbox2D>
+			<xmin>614</xmin>
+			<ymin>51</ymin>
+			<xmax>652</xmax>
+			<ymax>94</ymax>
+			<ratio_visible>0.0</ratio_visible>
+			<focus_blur>-0.003254</focus_blur>
+		</bndbox2D>
+	</object>
+	<object id="4FE3003B40DC43DDD29F979C74D1D6B8" persistent_id="SM_Airplane_Civil_Private_Bombardier_Challenger-300_BPC_C_276StaticMeshComponent">
+		<category0>Airplane</category0>
+		<category1>Civil</category1>
+		<category2>Private</category2>
+		<category3>Bombardier</category3>
+		<category4>Challenger-300</category4>
+		<object_mask_color_rgba>211,115,61,255</object_mask_color_rgba>
+		<Sockets>
+			<Bone_PlaneAnnotation_Nose>
+				<world>X=80869.797 Y=-71000.508 Z=-167.288</world>
+				<screen>X=1374.137 Y=1144.606</screen>
+			</Bone_PlaneAnnotation_Nose>
+			<Bone_PlaneAnnotation_RightWing>
+				<world>X=80601.727 Y=-69310.336 Z=-132.517</world>
+				<screen>X=1317.921 Y=1129.595</screen>
+			</Bone_PlaneAnnotation_RightWing>
+			<Bone_PlaneAnnotation_Tail>
+				<world>X=79476.461 Y=-69833.227 Z=7.404</world>
+				<screen>X=1339.188 Y=1092.923</screen>
+			</Bone_PlaneAnnotation_Tail>
+			<Bone_PlaneAnnotation_LeftWing>
+				<world>X=79158.797 Y=-71032.688 Z=-132.517</world>
+				<screen>X=1379.889 Y=1086.175</screen>
+			</Bone_PlaneAnnotation_LeftWing>
+		</Sockets>
+		<bndbox2D>
+			<xmin>1344</xmin>
+			<ymin>1078</ymin>
+			<xmax>1348</xmax>
+			<ymax>1079</ymax>
+			<ratio_visible>0.0</ratio_visible>
+			<focus_blur>-0.050283</focus_blur>
+		</bndbox2D>
+	</object>
+	<object id="BE74840241CD406A19C6948B80F1289D" persistent_id="SM_Airplane_Civil_Transport_BAE_146-100_BPC_C_294StaticMeshComponent">
+		<category0>Airplane</category0>
+		<category1>Civil</category1>
+		<category2>Transport</category2>
+		<category3>BAE</category3>
+		<category4>146-100</category4>
+		<object_mask_color_rgba>40,229,34,255</object_mask_color_rgba>
+		<Sockets>
+			<Bone_PlaneAnnotation_Nose>
+				<world>X=63099.125 Y=-59198.547 Z=-30.024</world>
+				<screen>X=1034.191 Y=514.652</screen>
+			</Bone_PlaneAnnotation_Nose>
+			<Bone_PlaneAnnotation_RightWing>
+				<world>X=61175.926 Y=-58991.070 Z=158.853</world>
+				<screen>X=1033.634 Y=451.192</screen>
+			</Bone_PlaneAnnotation_RightWing>
+			<Bone_PlaneAnnotation_Tail>
+				<world>X=61193.586 Y=-60698.488 Z=88.774</world>
+				<screen>X=1089.170 Y=457.701</screen>
+			</Bone_PlaneAnnotation_Tail>
+			<Bone_PlaneAnnotation_LeftWing>
+				<world>X=62849.094 Y=-61116.680 Z=158.853</world>
+				<screen>X=1097.871 Y=511.728</screen>
+			</Bone_PlaneAnnotation_LeftWing>
+		</Sockets>
+		<bndbox2D>
+			<xmin>1032</xmin>
+			<ymin>438</ymin>
+			<xmax>1106</xmax>
+			<ymax>514</ymax>
+			<ratio_visible>0.0</ratio_visible>
+			<focus_blur>-0.04039</focus_blur>
+		</bndbox2D>
+	</object>
+	<object id="A6AAD7C04246CF412F475CAD5E59E15F" persistent_id="SM_Airplane_Civil_Transport_McDonnellDouglas_MD-11_BPC_C_379StaticMeshComponent">
+		<category0>Airplane</category0>
+		<category1>Civil</category1>
+		<category2>Transport</category2>
+		<category3>McDonnellDouglas</category3>
+		<category4>MD-11</category4>
+		<object_mask_color_rgba>178,190,64,255</object_mask_color_rgba>
+		<Sockets>
+			<Bone_PlaneAnnotation_Nose>
+				<world>X=48776.625 Y=-43969.188 Z=189.021</world>
+				<screen>X=593.564 Y=16.653</screen>
+			</Bone_PlaneAnnotation_Nose>
+			<Bone_PlaneAnnotation_RightWing>
+				<world>X=47147.922 Y=-39328.938 Z=327.392</world>
+				<screen>X=452.215 Y=-48.561</screen>
+			</Bone_PlaneAnnotation_RightWing>
+			<Bone_PlaneAnnotation_Tail>
+				<world>X=44306.297 Y=-40197.438 Z=479.238</world>
+				<screen>X=490.371 Y=-133.459</screen>
+			</Bone_PlaneAnnotation_Tail>
+			<Bone_PlaneAnnotation_LeftWing>
+				<world>X=43928.449 Y=-43144.703 Z=327.392</world>
+				<screen>X=585.495 Y=-134.058</screen>
+			</Bone_PlaneAnnotation_LeftWing>
+		</Sockets>
+		<bndbox2D>
+			<xmin>571</xmin>
+			<ymin>0</ymin>
+			<xmax>594</xmax>
+			<ymax>16</ymax>
+			<ratio_visible>0.0</ratio_visible>
+			<focus_blur>0.014343</focus_blur>
+		</bndbox2D>
+	</object>
+	<object id="C1CD61EA46D26C136E759A9B344083AF" persistent_id="SM_Airplane_Civil_Transport_BAE_146-300_BPC_C_290StaticMeshComponent">
+		<category0>Airplane</category0>
+		<category1>Civil</category1>
+		<category2>Transport</category2>
+		<category3>BAE</category3>
+		<category4>146-300</category4>
+		<object_mask_color_rgba>64,58,94,255</object_mask_color_rgba>
+		<Sockets>
+			<Bone_PlaneAnnotation_Nose>
+				<world>X=57872.934 Y=-64746.137 Z=-174.664</world>
+				<screen>X=1229.821 Y=366.955</screen>
+			</Bone_PlaneAnnotation_Nose>
+			<Bone_PlaneAnnotation_RightWing>
+				<world>X=57594.984 Y=-62699.047 Z=39.966</world>
+				<screen>X=1164.831 Y=350.099</screen>
+			</Bone_PlaneAnnotation_RightWing>
+			<Bone_PlaneAnnotation_Tail>
+				<world>X=55757.918 Y=-62813.148 Z=50.218</world>
+				<screen>X=1173.857 Y=292.551</screen>
+			</Bone_PlaneAnnotation_Tail>
+			<Bone_PlaneAnnotation_LeftWing>
+				<world>X=55809.156 Y=-64653.043 Z=39.966</world>
+				<screen>X=1233.147 Y=300.058</screen>
+			</Bone_PlaneAnnotation_LeftWing>
+		</Sockets>
+		<bndbox2D>
+			<xmin>1156</xmin>
+			<ymin>273</ymin>
+			<xmax>1233</xmax>
+			<ymax>366</ymax>
+			<ratio_visible>0.0</ratio_visible>
+			<focus_blur>-0.027729</focus_blur>
+		</bndbox2D>
+	</object>
+	<object id="0930FA114F0B0EC246C95DA4B57C9E65" persistent_id="SM_Airplane_Civil_Transport_Boeing_737-300_1_BPC_C_264StaticMeshComponent">
+		<category0>Airplane</category0>
+		<category1>Civil</category1>
+		<category2>Transport</category2>
+		<category3>Boeing</category3>
+		<category4>737-300</category4>
+		<object_mask_color_rgba>235,202,193,255</object_mask_color_rgba>
+		<Sockets>
+			<Bone_PlaneAnnotation_Nose>
+				<world>X=69619.813 Y=-61575.680 Z=111.379</world>
+				<screen>X=1092.100 Y=733.944</screen>
+			</Bone_PlaneAnnotation_Nose>
+			<Bone_PlaneAnnotation_RightWing>
+				<world>X=68904.891 Y=-59071.371 Z=152.236</world>
+				<screen>X=1011.578 Y=701.972</screen>
+			</Bone_PlaneAnnotation_RightWing>
+			<Bone_PlaneAnnotation_Tail>
+				<world>X=67014.695 Y=-59393.195 Z=284.997</world>
+				<screen>X=1028.367 Y=640.541</screen>
+			</Bone_PlaneAnnotation_Tail>
+			<Bone_PlaneAnnotation_LeftWing>
+				<world>X=67028.992 Y=-61310.539 Z=152.236</world>
+				<screen>X=1091.405 Y=647.911</screen>
+			</Bone_PlaneAnnotation_LeftWing>
+		</Sockets>
+		<bndbox2D>
+			<xmin>1010</xmin>
+			<ymin>631</ymin>
+			<xmax>1092</xmax>
+			<ymax>733</ymax>
+			<ratio_visible>0.0</ratio_visible>
+			<focus_blur>-0.050025</focus_blur>
+		</bndbox2D>
+	</object>
+	<object id="A5346DA24EC0292A7D6307A80C6BF2F1" persistent_id="SM_Airplane_Civil_Transport_Airbus_A-340_BPC_C_361StaticMeshComponent">
+		<category0>Airplane</category0>
+		<category1>Civil</category1>
+		<category2>Transport</category2>
+		<category3>Airbus</category3>
+		<category4>A-340</category4>
+		<object_mask_color_rgba>22,76,163,255</object_mask_color_rgba>
+		<Sockets>
+			<Bone_PlaneAnnotation_Nose>
+				<world>X=52628.730 Y=-59912.984 Z=183.621</world>
+				<screen>X=1089.845 Y=184.613</screen>
+			</Bone_PlaneAnnotation_Nose>
+			<Bone_PlaneAnnotation_RightWing>
+				<world>X=51470.730 Y=-55511.797 Z=204.730</world>
+				<screen>X=952.229 Y=134.825</screen>
+			</Bone_PlaneAnnotation_RightWing>
+			<Bone_PlaneAnnotation_Tail>
+				<world>X=47978.438 Y=-56208.719 Z=271.992</world>
+				<screen>X=985.696 Y=29.030</screen>
+			</Bone_PlaneAnnotation_Tail>
+			<Bone_PlaneAnnotation_LeftWing>
+				<world>X=48080.051 Y=-59768.422 Z=204.730</world>
+				<screen>X=1098.854 Y=43.796</screen>
+			</Bone_PlaneAnnotation_LeftWing>
+		</Sockets>
+		<bndbox2D>
+			<xmin>944</xmin>
+			<ymin>16</ymin>
+			<xmax>1100</xmax>
+			<ymax>184</ymax>
+			<ratio_visible>0.0</ratio_visible>
+			<focus_blur>-0.011648</focus_blur>
+		</bndbox2D>
+	</object>
+	<object id="47057ADE42EA58E9D1B78C92A82AD363" persistent_id="SM_Airplane_Civil_Private_Bombardier_Challenger-300_BPC_C_278StaticMeshComponent">
+		<category0>Airplane</category0>
+		<category1>Civil</category1>
+		<category2>Private</category2>
+		<category3>Bombardier</category3>
+		<category4>Challenger-300</category4>
+		<object_mask_color_rgba>97,247,58,255</object_mask_color_rgba>
+		<Sockets>
+			<Bone_PlaneAnnotation_Nose>
+				<world>X=63813.992 Y=-70125.141 Z=-162.340</world>
+				<screen>X=1389.240 Y=573.845</screen>
+			</Bone_PlaneAnnotation_Nose>
+			<Bone_PlaneAnnotation_RightWing>
+				<world>X=64029.902 Y=-71822.883 Z=-133.696</world>
+				<screen>X=1444.512 Y=586.202</screen>
+			</Bone_PlaneAnnotation_RightWing>
+			<Bone_PlaneAnnotation_Tail>
+				<world>X=65171.254 Y=-71335.398 Z=3.722</world>
+				<screen>X=1426.354 Y=620.952</screen>
+			</Bone_PlaneAnnotation_Tail>
+			<Bone_PlaneAnnotation_LeftWing>
+				<world>X=65525.281 Y=-70145.859 Z=-133.696</world>
+				<screen>X=1385.688 Y=629.206</screen>
+			</Bone_PlaneAnnotation_LeftWing>
+		</Sockets>
+		<bndbox2D>
+			<xmin>1384</xmin>
+			<ymin>574</ymin>
+			<xmax>1448</xmax>
+			<ymax>634</ymax>
+			<ratio_visible>0.0</ratio_visible>
+			<focus_blur>-0.037155</focus_blur>
+		</bndbox2D>
+	</object>
+	<object id="B71B2E794F42837E6EDBF2AD80885099" persistent_id="SM_Airplane_Civil_Transport_Fokker_100_BPC_C_305StaticMeshComponent">
+		<category0>Airplane</category0>
+		<category1>Civil</category1>
+		<category2>Transport</category2>
+		<category3>Fokker</category3>
+		<category4>100</category4>
+		<object_mask_color_rgba>43,76,112,255</object_mask_color_rgba>
+		<Sockets>
+			<Bone_PlaneAnnotation_Nose>
+				<world>X=56049.559 Y=-50263.879 Z=-1.528</world>
+				<screen>X=768.366 Y=262.522</screen>
+			</Bone_PlaneAnnotation_Nose>
+			<Bone_PlaneAnnotation_RightWing>
+				<world>X=55494.668 Y=-47928.016 Z=-36.697</world>
+				<screen>X=695.409 Y=238.154</screen>
+			</Bone_PlaneAnnotation_RightWing>
+			<Bone_PlaneAnnotation_Tail>
+				<world>X=53609.313 Y=-48148.539 Z=95.062</world>
+				<screen>X=709.071 Y=179.080</screen>
+			</Bone_PlaneAnnotation_Tail>
+			<Bone_PlaneAnnotation_LeftWing>
+				<world>X=53658.586 Y=-50046.109 Z=-36.697</world>
+				<screen>X=769.968 Y=187.721</screen>
+			</Bone_PlaneAnnotation_LeftWing>
+		</Sockets>
+		<bndbox2D>
+			<xmin>689</xmin>
+			<ymin>158</ymin>
+			<xmax>770</xmax>
+			<ymax>262</ymax>
+			<ratio_visible>0.0</ratio_visible>
+			<focus_blur>-0.019379</focus_blur>
+		</bndbox2D>
+	</object>
+	<object id="3B6DA6B647B5005E8265E18016C5828F" persistent_id="SM_Airplane_Civil_Transport_Fokker_100_BPC_C_306StaticMeshComponent">
+		<category0>Airplane</category0>
+		<category1>Civil</category1>
+		<category2>Transport</category2>
+		<category3>Fokker</category3>
+		<category4>100</category4>
+		<object_mask_color_rgba>100,106,40,255</object_mask_color_rgba>
+		<Sockets>
+			<Bone_PlaneAnnotation_Nose>
+				<world>X=76711.031 Y=-67516.453 Z=-53.396</world>
+				<screen>X=1268.666 Y=990.973</screen>
+			</Bone_PlaneAnnotation_Nose>
+			<Bone_PlaneAnnotation_RightWing>
+				<world>X=76116.719 Y=-65190.148 Z=-31.408</world>
+				<screen>X=1192.500 Y=962.973</screen>
+			</Bone_PlaneAnnotation_RightWing>
+			<Bone_PlaneAnnotation_Tail>
+				<world>X=74238.727 Y=-65445.238 Z=137.821</world>
+				<screen>X=1206.974 Y=900.414</screen>
+			</Bone_PlaneAnnotation_Tail>
+			<Bone_PlaneAnnotation_LeftWing>
+				<world>X=74316.578 Y=-67338.875 Z=-31.408</world>
+				<screen>X=1269.524 Y=909.724</screen>
+			</Bone_PlaneAnnotation_LeftWing>
+		</Sockets>
+		<bndbox2D>
+			<xmin>1188</xmin>
+			<ymin>882</ymin>
+			<xmax>1269</xmax>
+			<ymax>990</ymax>
+			<ratio_visible>0.0</ratio_visible>
+			<focus_blur>-0.053163</focus_blur>
+		</bndbox2D>
+	</object>
+	<object id="C5E3AA714674A7DB00960BA70541284D" persistent_id="SM_Airplane_Civil_Transport_Airbus_A300_BPC_C_362StaticMeshComponent">
+		<category0>Airplane</category0>
+		<category1>Civil</category1>
+		<category2>Transport</category2>
+		<category3>Airbus</category3>
+		<category4>A300</category4>
+		<object_mask_color_rgba>169,40,40,255</object_mask_color_rgba>
+		<Sockets>
+			<Bone_PlaneAnnotation_Nose>
+				<world>X=69706.984 Y=-75198.633 Z=282.214</world>
+				<screen>X=1544.986 Y=781.623</screen>
+			</Bone_PlaneAnnotation_Nose>
+			<Bone_PlaneAnnotation_RightWing>
+				<world>X=70848.438 Y=-78894.070 Z=374.749</world>
+				<screen>X=1666.534 Y=831.745</screen>
+			</Bone_PlaneAnnotation_RightWing>
+			<Bone_PlaneAnnotation_Tail>
+				<world>X=73947.875 Y=-78432.211 Z=464.716</world>
+				<screen>X=1645.118 Y=934.117</screen>
+			</Bone_PlaneAnnotation_Tail>
+			<Bone_PlaneAnnotation_LeftWing>
+				<world>X=73572.758 Y=-75321.086 Z=374.749</world>
+				<screen>X=1540.700 Y=911.038</screen>
+			</Bone_PlaneAnnotation_LeftWing>
+		</Sockets>
+		<bndbox2D>
+			<xmin>1537</xmin>
+			<ymin>781</ymin>
+			<xmax>1669</xmax>
+			<ymax>949</ymax>
+			<ratio_visible>0.0</ratio_visible>
+			<focus_blur>-0.036605</focus_blur>
+		</bndbox2D>
+	</object>
+	<object id="1A304403498E29704CC82AA8A5779624" persistent_id="SM_Airplane_Civil_Private_Bombardier_Challenger-604_BPC_C_280StaticMeshComponent">
+		<category0>Airplane</category0>
+		<category1>Civil</category1>
+		<category2>Private</category2>
+		<category3>Bombardier</category3>
+		<category4>Challenger-604</category4>
+		<object_mask_color_rgba>172,187,70,255</object_mask_color_rgba>
+		<Sockets>
+			<Bone_PlaneAnnotation_Nose>
+				<world>X=60005.449 Y=-53693.035 Z=-128.850</world>
+				<screen>X=865.373 Y=398.871</screen>
+			</Bone_PlaneAnnotation_Nose>
+			<Bone_PlaneAnnotation_RightWing>
+				<world>X=59705.453 Y=-52171.680 Z=-149.333</world>
+				<screen>X=817.206 Y=384.665</screen>
+			</Bone_PlaneAnnotation_RightWing>
+			<Bone_PlaneAnnotation_Tail>
+				<world>X=58617.180 Y=-52489.621 Z=-56.758</world>
+				<screen>X=831.158 Y=350.627</screen>
+			</Bone_PlaneAnnotation_Tail>
+			<Bone_PlaneAnnotation_LeftWing>
+				<world>X=58456.918 Y=-53612.000 Z=-149.333</world>
+				<screen>X=868.068 Y=349.823</screen>
+			</Bone_PlaneAnnotation_LeftWing>
+		</Sockets>
+		<bndbox2D>
+			<xmin>816</xmin>
+			<ymin>336</ymin>
+			<xmax>868</xmax>
+			<ymax>398</ymax>
+			<ratio_visible>0.0</ratio_visible>
+			<focus_blur>-0.033113</focus_blur>
+		</bndbox2D>
+	</object>
+	<object id="2B98993E4D24C92FCFF3A0A16B55618E" persistent_id="BP_GroundSupport_Bus_C_101StaticMesh">
+		<category0>Airport</category0>
+		<category1>GroundSupport</category1>
+		<category2>Vehicle</category2>
+		<category3>Bus</category3>
+		<object_mask_color_rgba>130,37,250,255</object_mask_color_rgba>
+		<bndbox2D>
+			<xmin>1783</xmin>
+			<ymin>23</ymin>
+			<xmax>1828</xmax>
+			<ymax>43</ymax>
+			<ratio_visible>0.0</ratio_visible>
+			<focus_blur>0.032986</focus_blur>
+		</bndbox2D>
+	</object>
+	<object id="D7E26F9D4F61CDF1DEBC9687A9D8C086" persistent_id="BP_GroundSupport_CargoLoader_C_101StaticMesh">
+		<category0>Airport</category0>
+		<category1>GroundSupport</category1>
+		<category2>CargoLoader</category2>
+		<object_mask_color_rgba>121,175,67,255</object_mask_color_rgba>
+		<bndbox2D>
+			<xmin>1893</xmin>
+			<ymin>124</ymin>
+			<xmax>1919</xmax>
+			<ymax>160</ymax>
+			<ratio_visible>0.0</ratio_visible>
+			<focus_blur>0.032059</focus_blur>
+		</bndbox2D>
+	</object>
+	<num_box2D_objects>17</num_box2D_objects>
+	<num_posed_objects>0</num_posed_objects>
+	<JSON_Variation_Parameters>
+		<parameter name="Time of Day" value="10" />
+		<parameter name="WeatherIntensity" value="0.2" />
+		<parameter name="GroundSampleDistance" value="30" />
+		<parameter name="bBox2D" value="True" />
+		<parameter name="MaxFocusActorOffset" value="5000" />
+		<parameter name="bPoseData" value="True" />
+		<parameter name="bIncludeCharacterActors" value="True" />
+		<parameter name="bInternalAirplanePoints" value="True" />
+		<parameter name="bAbortIfWorldEdgesAreShowing" value="True" />
+		<parameter name="OffNadirAngle" value="10" />
+		<parameter name="CurrentWeather" value="Snow" />
+		<parameter name="Primary Biome" value="Temperate Deserts" />
+		<parameter name="bIncludeStaticMeshActors" value="True" />
+		<parameter name="MaxImagesToCapture" value="500" />
+		<parameter name="bObjectMask" value="True" />
+		<parameter name="bIRes" value="True" />
+		<parameter name="bCollectXMLMetadata" value="True" />
+	</JSON_Variation_Parameters>
+</image>
