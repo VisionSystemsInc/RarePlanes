@@ -6,6 +6,7 @@ import os
 import cv2
 import numpy as np
 import pandas as pd
+from tqdm import tqdm
 
 from rareplanes.xmls import parse_xml_image, get_polygon
 
@@ -13,7 +14,9 @@ from rareplanes.xmls import parse_xml_image, get_polygon
 def create_coco_annotations(data_dir, segmentation, output_path, category_attribute, custom_class_lookup_csv):
     """ parse the geojson files and create the coco annotations file
     Args:
-        - data_dir (str): directory containing the synthetic xml annotations.
+        - data_dir (str): the root directory contatining the synthetic images, masks, and annotations.
+          Typically /synthetic/train/ or /synthetic/test/
+          Must have 3 subdirs including: 'xmls', 'masks', and 'images'.
         - segmentation (str): Type of segmentation, choose between none, simple or full
         - output_path (str): json file containing the coco annotations
         - category_attribute (str): One of 'role','num_engines', 'propulsion', 'canards', 'num_tail_fins',
@@ -86,16 +89,20 @@ def create_coco_annotations(data_dir, segmentation, output_path, category_attrib
     logger = logging.getLogger(__name__)
     assert segmentation in ['none', 'simple', 'full'], 'Wrong segmentation type.'
 
-    xml_paths = glob.glob(data_dir + '/*.xml')
+    xml_dir = os.path.join(data_dir, "xmls")
+    xml_paths = glob.glob(xml_dir + '/*.xml')
+    print('Now processing', len(xml_paths), 'files')
     logger.info(f'Now processing {len(xml_paths)} files')
 
     ann_id = 0
     images = []
     annotations = []
-    for i, path in enumerate(xml_paths):
+    for i, path in enumerate(tqdm(xml_paths)):
         # get path of corresponding image and mask
-        im_path = path.replace('xml', 'png')
+        im_path = path.replace('.xml', '.png')
+        im_path = im_path.replace('/xmls/', '/images/')
         mask_path = path.replace('.xml', '_mask.png')
+        mask_path = mask_path.replace('/xmls/', '/masks/')
         if not os.path.isfile(im_path):
             logger.info(f'Missing image for {os.path.basename(path)} file')
             continue
