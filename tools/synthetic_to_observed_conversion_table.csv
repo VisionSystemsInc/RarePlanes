@@ -45,7 +45,7 @@ Gulfstream_G200,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted
 Gulfstream_GIII,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,25.32,23.72,2
 HBC_Hawker-4000,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,21.08,18.8,2
 McDonnellDouglas_DC-9-30,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,36.36,28.44,3
-Private_Cessna,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,16.9,16.31,2
+Cessna,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,16.9,16.31,2
 SudAviation_Caravelle,Medium Civil Transport/Utility,2,TRUE,no,2,jet,1,mid/low mounted,swept,32.01,34.3,3
 Bombardier_Learjet,Small Civil Transport/Utility,1,TRUE,no,2,jet,1,mid/low mounted,straight,14.83,12.04,1
 Cessna_170,Small Civil Transport/Utility,1,TRUE,no,1,propeller,1,high mounted,straight,7.62,11,1

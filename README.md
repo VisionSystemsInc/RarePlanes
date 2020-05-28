@@ -1,4 +1,4 @@
-# RarePlanes
+# RarePlanes: Synthetic Data Takes Flight
 
 ![](figures/AIReverie_Airports_Weather.jpg)
 
@@ -30,6 +30,12 @@ Follow the installation guidelines of [solaris](https://github.com/CosmiQ/solari
 ## Download data
 
 Instructions are available in the user guide and [here](datasets/README.md).
+
+
+## Models and baselines
+
+We provide all the baseline results and made the trained models available for 
+download [here](models/README.md)
 
 
 ## Create tiles from satellite images

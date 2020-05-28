@@ -24,11 +24,9 @@ def create_coco_annotations(data_dir, segmentation, output_path, category_attrib
        created on the real dataset using the create_custom_classes function.
         - custom_class_lookup_csv(str): path to the output csv from the create_custom_classes
         function.  Must be included if using the custom_id to create coco labels.
-    Returns
-        - annotations (list): list of coco annotations
     """
     # load the conversion table. we can get the planes attributes from their names
-    conversion_table = pd.read_csv('synthetic_to_observed_conversion_table.csv')
+    conversion_table = pd.read_csv('tools/synthetic_to_observed_conversion_table.csv')
 
     # here we decide of the mapping
     if category_attribute is None:
