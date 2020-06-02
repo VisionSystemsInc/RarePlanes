@@ -45,7 +45,8 @@ For example to tile into 1024x1024 tiles with no overlap:
 ```
 python tools/create_tiles.py --image_dir datasets/real/train/PS-RGB
                              --geojson_dir datasets/real/train/geojson_aircraft
-                             --tile_image_dir datasets/real/train/retiled_geojson_aircraft
+                             --tile_image_dir datasets/real/train/retiled_images
+                             --tile_geojson_dir datasets/real/train/retiled_geojson
                              --tile_size 1024
                              --overlap 0
 ```
