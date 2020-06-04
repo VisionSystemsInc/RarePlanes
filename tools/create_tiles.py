@@ -29,9 +29,9 @@ if __name__ == '__main__':
     parser.add_argument('--geojson_dir', type=str, required=True,
                         help='directory containing the geojson files')
     parser.add_argument('--tile_image_dir', type=str, required=True,
-                        help='output directory for the tiles')
+                        help='output directory for the tiles. absolute path.')
     parser.add_argument('--tile_geojson_dir', type=str, required=True,
-                        help='output directory for the geojson tiles')
+                        help='output directory for the geojson tiles. absolute path.')
     parser.add_argument('--tile_size', type=int, default=512,
                         help='dimensions of the tiles')
     parser.add_argument('--overlap', type=float, default=0.1,

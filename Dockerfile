@@ -36,4 +36,5 @@ RUN /bin/bash -c "source activate solaris && \
 
 COPY . .
 RUN /bin/bash -c "source activate solaris && \
-    pip install -e ."
+    pip install -e . && \
+    conda install -c conda-forge notebook"

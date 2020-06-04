@@ -17,7 +17,7 @@ def create_custom_classes(all_annotations_geojson, geojson_dir, output_path, cat
         `RarePlanes_Public_All_Annotations.geojson` file.
         - geojson_dir (str): directory containing the geojson files
         for individual images or tiles
-        - output_path (str): directory to output the customized geojsons
+        - output_path (str): directory to output the customized geojsons. Need to provide the absolute path.
         - category_attributes (list): A list of attributes to combine
         to create a custom class.  Choose any combintaion of the following:
         ['role','num_engines', 'propulsion', 'canards', 'num_tail_fins',
@@ -46,7 +46,7 @@ if __name__ == '__main__':
     parser.add_argument('--all_annotations_geojson', required=True)
     parser.add_argument('--geojson_dir', required=True)
     parser.add_argument('--output_path', default='./')
-    parser.add_argument('--category_attribute', default=['role', 'num_engines'])
+    parser.add_argument('--category_attribute', default=['role', 'num_engines'], nargs="+")
     args = parser.parse_args()
     create_custom_classes(args.all_annotations_geojson,
                           args.geojson_dir,

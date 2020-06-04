@@ -18,10 +18,13 @@ Please cite our paper if you find it useful for your research.
 ### Using docker
 
 We highly recommend using the available docker image as some of the dependencies can be strenous 
-to install.
+to install. You can either pull the image:
 
 ` docker pull aireverie/rareplanes:latest`
 
+or build it locally:
+
+`docker build -t rareplanes .`
 
 ### Without docker
 
