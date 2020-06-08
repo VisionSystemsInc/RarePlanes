@@ -8,8 +8,16 @@ The [user guide](https://www.cosmiqworks.org/rareplanes-public-user-guide/) prov
 
 ## Paper
 
-[PAPER LINK HERE]
-
+```
+@misc{shermeyer2020rareplanes,
+    title={RarePlanes: Synthetic Data Takes Flight},
+    author={Jacob Shermeyer and Thomas Hossler and Adam Van Etten and Daniel Hogan and Ryan Lewis and Daeil Kim},
+    year={2020},
+    eprint={2006.02963},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+```
 Please cite our paper if you find it useful for your research.
 
 
