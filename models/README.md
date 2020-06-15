@@ -16,7 +16,7 @@ the detectron2, one can replicate the results of the paper.
 
 ### Faster RCNN
 
-| Name        | Attribute | box AP | download |
+| Name        | Attribute | box mAP | download |
 |-------------|-----------|:------:|:--------:|
 | real        | aircraft  |   73.32  |   [model](https://rareplanes-public.s3.amazonaws.com/weights/fasterrcnn/real/aircraft/model_0043999.pth)  |
 | synthetic   | aircraft  |   54.86  |   [model](https://rareplanes-public.s3.amazonaws.com/weights/fasterrcnn/synthetic/aircraft/model_0077999.pth)  |
@@ -27,11 +27,11 @@ the detectron2, one can replicate the results of the paper.
 
 ### Mask RCNN
 
-| Name        | Attribute | mask AP | download |
+| Name        | Attribute | mask mAP | download |
 |-------------|-----------|:-------:|:--------:|
-| real        | aircraft  |  0.0   |   [model](https://rareplanes-public.s3.amazonaws.com/weights/maskrcnn/real/aircraft/model_0033999.pth)  |
-| synthetic   | aircraft  |  0.0   |   [model](https://rareplanes-public.s3.amazonaws.com/weights/maskrcnn/synthetic/aircraft/model_0049999.pth)  |
-| fine_tuning | aircraft  |  0.0   |   [model](https://rareplanes-public.s3.amazonaws.com/weights/maskrcnn/finetune/aircraft/model_0053999.pth)  |
-| real        | role      |  0.0   |   [model](https://rareplanes-public.s3.amazonaws.com/weights/maskrcnn/real/role/model_0027999.pth)  |
-| synthetic   | role      |  0.0   |   [model](https://rareplanes-public.s3.amazonaws.com/weights/maskrcnn/synthetic/role/model_0043999.pth)  |
-| fine_tuning | role      |  0.0   |   [model](https://rareplanes-public.s3.amazonaws.com/weights/maskrcnn/finetune/role/model_0045999.pth)  |
+| real        | aircraft  |  73.67   |   [model](https://rareplanes-public.s3.amazonaws.com/weights/maskrcnn/real/aircraft/model_0033999.pth)  |
+| synthetic   | aircraft  |  56.28   |   [model](https://rareplanes-public.s3.amazonaws.com/weights/maskrcnn/synthetic/aircraft/model_0049999.pth)  |
+| fine_tuning | aircraft  |  70.51   |   [model](https://rareplanes-public.s3.amazonaws.com/weights/maskrcnn/finetune/aircraft/model_0053999.pth)  |
+| real        | role      |  69.57   |   [model](https://rareplanes-public.s3.amazonaws.com/weights/maskrcnn/real/role/model_0027999.pth)  |
+| synthetic   | role      |  39.46   |   [model](https://rareplanes-public.s3.amazonaws.com/weights/maskrcnn/synthetic/role/model_0043999.pth)  |
+| fine_tuning | role      |  67.11   |   [model](https://rareplanes-public.s3.amazonaws.com/weights/maskrcnn/finetune/role/model_0045999.pth)  |
